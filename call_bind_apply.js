@@ -23,5 +23,5 @@ user1.about.call(user2, 'delhi', 'full stack developer');
 
 user1.about.apply(user2, ['hydrabad', 'Frontend developer']);
 
-const fun = user1.about.bind(user3,'gurugram','Data scientiest')
+const fun = user1.about.bind(user3,'gurugram','Data scientiest') // in case of bind a function gets returned
 fun()
