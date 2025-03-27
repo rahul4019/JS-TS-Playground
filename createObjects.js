@@ -23,7 +23,8 @@ function createUser(firstName, lastName, email, age, address) {
   user.age = age;
   user.address = address;
   user.about = function () {
-    return `${this.firstName} is ${this.age} years old`;
+    console.log(this);
+    return `${this.firstName} is ${this.age} years old.`;
   }
   user.is18 = function () {
     return this.age >= 18;
@@ -32,4 +33,4 @@ function createUser(firstName, lastName, email, age, address) {
 }
 
 const user2 = createUser('rahul', 'kumar', 'rahuldevstack@gmail.com', 2, 'abc')
-console.log(user2)
+console.log(user2.about())
