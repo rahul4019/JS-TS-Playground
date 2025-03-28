@@ -1,3 +1,4 @@
+// create a new array which will have unique objects based on name and age properties
 const data = [
   { id: 1, name: 'Alice', age: 25 },
   { id: 2, name: 'Bob', age: 30 },
