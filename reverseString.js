@@ -11,5 +11,7 @@ while (start < end) {
   start++;
   end--;
 }
-
 console.log('Reversed string: ', arr.join(''));
+
+const reversedString = str.split('').reverse().join(''); // reverse using inbuilt method
+console.log('Reversed string: ', reversedString);
