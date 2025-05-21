@@ -1,5 +1,17 @@
-// Dependency Injection
+export function fetchData(userId) {
+  return {
+    id: userId,
+    name: 'John Doe',
+    roles: ['user', 'admin'],
+    lastLogin: new Date('2023-01-01T12:00:00Z').toISOString(),
+    preferences: {
+      notifications: true,
+      theme: 'dark',
+    },
+  };
+}
 
+// Dependency Injection
 export function processOrder(data, { processPayment }) {
   // some logic
 
