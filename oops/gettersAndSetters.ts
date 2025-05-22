@@ -9,6 +9,10 @@ class Person {
     this.age = age;
   }
 
+  static classInfo() {
+    return 'this is Person class';
+  }
+
   // getter (get keyword)
   get fullName() {
     return `${this.firstName} ${this.lastName}`;
@@ -24,3 +28,5 @@ class Person {
 const person1 = new Person('rahul', 'kumar', 5);
 person1.fullName = 'john doe';
 console.log(person1.fullName);
+
+console.log(Person.classInfo());
