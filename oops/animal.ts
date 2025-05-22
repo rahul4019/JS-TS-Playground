@@ -22,6 +22,10 @@ class Dog extends Animal {
     this.speed = speed;
   }
 
+  eat() {
+    return `Modified Eat: ${this.name} is eating.`;
+  }
+
   run() {
     return `${this.name} is running at ${this.speed}`;
   }
