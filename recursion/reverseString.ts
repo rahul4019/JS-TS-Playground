@@ -11,7 +11,7 @@ function helper(arr: string[], low: number, high: number): string[] {
 
 function reverseStr(str: string): string {
   const reversedArr = helper(str.split(''), 0, str.length - 1);
-  return reversedArr.join("");
+  return reversedArr.join('');
 }
 
 // console.log(reverseStr('rahul'));
