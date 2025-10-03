@@ -14,4 +14,4 @@ function firstRepeatingElement(nums: number[]): number {
 }
 
 console.log(firstRepeatingElement([10, 5, 3, 4, 3, 5, 6]));
-console.log(firstRepeatingElement([1, 2, 3, 4]));
+// console.log(firstRepeatingElement([1, 2, 3, 4]));
